@@ -1,6 +1,6 @@
----
-- hosts: all
+- name: Hello World Sample
+  hosts: all
   tasks:
-  - name: Print
-    debug:
-     msg: "Hello World"
+    - name: Hello Message
+      debug:
+        msg: "Hello World!"
